@@ -1,0 +1,25 @@
+{
+  "name": "twc",
+  "version": "0.0.1",
+  "description": "A clone of some popular website. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "node .\\server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dybdaltech/twc"
+  },
+  "keywords": [
+    "TWC",
+    "clone",
+    "project",
+    "testing"
+  ],
+  "author": "dybdaltech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
+}
