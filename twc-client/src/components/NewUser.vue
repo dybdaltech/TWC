@@ -54,7 +54,10 @@ export default {
             .catch((err) => {
                 console.log(err)
             });
-        
+            /*
+                TODO
+                Move this part over to back-end. SSL Certificate will ensure the password travels safely to the back end service.
+            */
             let encrypted = cryptoJS.AES.encrypt(this.password, this.email);
             axios.post('http://localhost:5000/user/new/password', {
                 userID: this.email,
