@@ -15,13 +15,13 @@ They are prefixed with x.x.x.x:3000/api/
 |user/{id}| Get a user by ID | GET|
 |user/new/ | Create a new user | POST|
 |user/delete/{id}|Delete a user | POST/DELETE|
-|user/posts/{id}| Get a specific post of user | GET|
-|user/posts/all | Get all user posts | GET|
-|user/comments/all | Get all comments made by user and post ID| GET
-|user/comments/{id}| Get specific comment | GET
-|user/settings/ | Get user settings | GEt
-|user/settings/{id}| Get a specific user setting | GET
-|user/settings/{id}| Set a user setting to specified value (true/false for bools) | POST
+|user/{id}/posts/{id}| Get a specific post of user | GET|
+|user/{id}/posts/all | Get all user posts | GET|
+|user/{id}/comments/all | Get all comments made by user and post ID| GET
+|user/{id}/comments/{id}| Get specific comment | GET
+|user/{id}/settings/ | Get user settings | GEt
+|user/{id}/settings/{id}| Get a specific user setting | GET
+|user/{id}/settings/{id}| Set a user setting to specified value (true/false for bools) | POST
 
 *Warning, this returns all posts in the entire database. Slow response time!
 
